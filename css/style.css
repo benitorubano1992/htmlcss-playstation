@@ -1,0 +1,180 @@
+
+
+/* var*/
+
+
+
+img{
+    max-width:100%;
+}
+
+/* header-top */
+.ms_logo_img{
+    height:25px;
+}
+.ms_pb{
+    padding-top:4.5rem;
+}
+
+.ms_mb{
+    margin-bottom:2rem;
+}
+.ms_pb-large{
+    padding-bottom:3rem;
+}
+
+.btn-first{
+    background-color: red;
+}
+
+.ms_btn-radius{
+    border-radius:30px;
+}
+
+.ms_text_blue{
+    color:#2083d3;
+}
+.ms_border-bottom{
+    border-bottom: 2px solid #2083d3;
+}
+
+.ms_border-card{
+    border:none
+}
+
+ul{
+    list-style-type: none;
+}
+/* start main */
+/* inizio jumbotron */
+.jumbotron {
+    min-height:400px;
+    background-image: url(../img/jumbo-bg.png);    
+    background-size: cover;
+    background-position: top center;
+    color:white;
+}
+.returnal-logo{
+    width:220px;
+}
+
+/* griglia immagini */
+
+.griglia-img{
+     /*border-bottom:1px solid black; debug */
+    margin-bottom:3rem;
+    }
+
+.card{
+    overflow: hidden;
+    border-radius:20px;
+}
+.card-active{
+    outline:2px solid #6bade2;
+    outline-offset: 2px;
+}
+
+h3.ms-head{
+    font-size:1rem;
+}
+h2.ms_sub-title{
+    font-size: calc(1.7rem + .9vw);
+}
+p.ms_text{
+    font-size:1.2rem;
+    color:#787878;
+}
+
+/* sezione box it takes */
+
+.section-play{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position:  center;
+    color:white;
+}
+
+.box_it_takes{
+    padding:2rem 0;
+ 
+   
+}
+.box_it_takes .box-text{
+    padding-right:1rem;
+}
+
+
+
+
+/* sezione playstation */
+.play-subtitle{
+    margin-bottom:0;
+}
+
+/* new-entry */
+.new-entry
+
+
+/* sezione playstation now */
+.playstation-now{
+    background-color: #161c3b;
+    color:white;
+}
+
+
+/* footer-top */
+footer{
+    background-color:#00439c;
+    color:white;
+}
+.globe-img{
+    height:25px;
+}
+.footer-top a, .footer-bottom a,.jumbotron a, .section-play a  {
+    color:inherit;
+   
+}
+.footer-top a {
+    text-decoration: none;
+}
+
+.footer-bottom-logo{
+    height:90px;
+    width:90px;
+    object-fit: cover;
+    object-position: left;
+}
+
+.footer-bottom-heading ul{
+    padding:0;
+    margin:0;
+}
+
+.footer-bottom-heading a{
+    text-decoration: none;
+}
+.footer-bottom-heading li, .footer-bottom-heading a {
+    line-height: normal;
+    font-size:0.8rem;
+}
+
+.info-more a {
+    color:inherit;
+}
+
+/* sezione media query */
+
+
+
+@media screen and (min-width:768px){
+    .wrapper{
+        width:80%;
+        margin:0 auto;
+    }
+}
+
+@media screen and (min-width:992px){
+    .wrapper{
+        width:65%;
+    }
+}
