@@ -1,7 +1,25 @@
+/* reset bootstrap */
+#ms_reset_first:hover,#ms_reset_first:focus{
+    background-color: red;
+    color:white;
+}
 
+#ms_reset_first:hover{
+    outline: 4px solid red;
+   outline-style: inset;
+}
 
+#ms_reset_second:hover,#ms_reset_second:focus{
+    color:white;
+}
+#ms_reset_second:hover{
+    outline:2px solid black;
+    outline-offset: 2px;
+}
 /* var*/
-
+:root{
+    --ms-bg-plus-section:#bebcbb;
+}
 
 
 img{
@@ -19,6 +37,11 @@ img{
 .ms_mb{
     margin-bottom:2rem;
 }
+
+.ms_mb_lg{
+    margin:2.5rem 0;
+}
+
 .ms_pb-large{
     padding-bottom:3rem;
 }
@@ -30,7 +53,12 @@ img{
 .ms_btn-radius{
     border-radius:30px;
 }
-
+.ms_btn_plus{
+    color:#346ae6;
+    background-color: #d9dadc;
+    border:none;
+    font-weight:600;
+}
 .ms_text_blue{
     color:#2083d3;
 }
@@ -42,9 +70,66 @@ img{
     border:none
 }
 
+.ms_opacity_50{
+    opacity:0.5;
+}
 ul{
     list-style-type: none;
 }
+/* navbar */
+
+.nav-try{
+    position:relative;
+}
+.nav-link::after{
+    content:url(../img/chevron-down-solid.svg);
+    display:inline-block;
+    width:15px;
+    position:absolute;
+    top:60%;
+    left:100%;
+    transform: translateY(-50%);
+}
+
+.nav-try:hover .nav-link::after{
+    transform:rotateX(180deg);
+    top:20%;  
+}
+
+
+
+.ms_ul{
+    list-style: none;
+    margin-bottom:0;
+    padding:0;
+}
+.ms_search{
+    height:30px;
+}
+.ms_btn-link{
+    padding:0.2rem 0.3rem;
+    border-radius:30px;
+    background-color: black;
+    color:white;
+    
+}
+
+.form-link{
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    padding-top:3px;
+}
+/* navbar end */
+
+
+
+
+
+
+
+
+
+
 /* start main */
 /* inizio jumbotron */
 .jumbotron {
@@ -59,6 +144,15 @@ ul{
 }
 
 /* griglia immagini */
+
+
+.ms_active:hover{
+   
+    border-bottom: 2px solid #2083d3;
+}
+.ms_active:hover .ms_opacity_50{
+    opacity:1.0 
+}
 
 .griglia-img{
      /*border-bottom:1px solid black; debug */
@@ -111,17 +205,28 @@ p.ms_text{
     margin-bottom:0;
 }
 
+.playstation-plus {
+    background-color: var(--ms-bg-plus-section);
+}
+
+
 /* new-entry */
-.new-entry
+
 
 
 /* sezione playstation now */
 .playstation-now{
-    background-color: #161c3b;
     color:white;
+    background-color:  #161c3b;
 }
-
-
+#ms_color_btn{
+    background-color: white;
+    color:black;
+}
+#ms_color_btn:hover{
+    background-color: white;
+    color:black;
+}
 /* footer-top */
 footer{
     background-color:#00439c;
@@ -161,6 +266,25 @@ footer{
 .info-more a {
     color:inherit;
 }
+
+
+
+
+
+/* sezione hover */
+
+
+.griglia-img .card:hover{
+    margin-top:-10px;
+}
+
+
+
+
+
+
+
+
 
 /* sezione media query */
 
