@@ -78,6 +78,15 @@ ul{
 }
 /* navbar */
 
+
+.ms_main_header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:999;
+}
+
 .nav-try{
     position:relative;
 }
@@ -121,7 +130,9 @@ ul{
 }
 /* navbar end */
 
-
+main.ms_content{
+   padding-top:120px; 
+}
 
 
 
